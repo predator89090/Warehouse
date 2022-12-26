@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="inputs">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" >Название</span>
+                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="">
+                    </div>
+                    <text class="alert"></text>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" >Цена</span>
+                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="">
+                    </div>
+                    <text class="alert"></text>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" >Количество</span>
+                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="">
+                    </div>
+                    <text class="alert"></text>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" >Артикул</span>
+                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="">
+                    </div>
+                    <text class="alert"></text>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" >Описание</span>
+                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="">
+                    </div>
+                    <text class="alert"></text>
+
+                </div>
+                    <p class="text">Дополнительные параметры:
+                        <button type="button" class="btn btn-success">Добавить</button>
+                    </p>
+                <div class="add_smth"></div>
+                <br><br>
+                <button type="button" class="btn btn-warning">Добавить</button>
+                <p class="clean">Отчистить поля ввода</p>
+                <div class="information"></div>
+                <div class="find">
+                    <button class="filter">Поиск</button>
+                    <input id = "filtering_val" value = "">
+                </div>
+                <div class="izbrannoe">Избранное</div>
+                <div class="favourites"></div>
+                
+            </div>   
+                
+            <div class="col-md-6" >
+                <p>Здесь отображаются уже добавленные товары</p>
+                <div class="div" id="cards"></div>
+                <p class="delete_all"></p>
+            </div>
+
+        </div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
